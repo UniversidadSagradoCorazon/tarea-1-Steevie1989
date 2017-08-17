@@ -10,3 +10,15 @@ Su función debe tener la siguiente estructura:
 y debe devolver ("return") un valor Booleano.
 
 **Entrega: lunes 21 de agosto.
+##Steeven Petit-Homme
+##Solucion Tarea 1
+
+def palindrome(word):
+    #lalista=list(word)
+    if word == word[::-1]:
+        print('True')
+    else:
+        print('False')
+palindrome('palabra')
+palindrome('radar')
+palindrome('abcdeedcba')
