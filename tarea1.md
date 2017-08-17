@@ -14,11 +14,10 @@ y debe devolver ("return") un valor Booleano.
 ##Solucion Tarea 1
 
 def palindrome(word):
-    #lalista=list(word)
     if word == word[::-1]:
         print('True')
     else:
         print('False')
-palindrome('palabra')
+palindrome('palabra')## Test Cases
 palindrome('radar')
 palindrome('abcdeedcba')
